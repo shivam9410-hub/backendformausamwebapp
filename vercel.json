@@ -11,7 +11,7 @@
 "routes":[
     {
         "src":"/(.*)",
-        "dest":"/temp"
+        "dest":"server.js"
     }
 ]
 }
