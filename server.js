@@ -27,6 +27,9 @@ app.post('/temp' ,async function(req,res){
   res.send(cachedData) ;
   return ;
  }
+ app.get('/',(res,req)=>{
+  res.send("HEllo") ;
+ })
 
 
 const data =  await fetch(`https://api.weatherapi.com/v1/forecast.json?key=ea0354227bb7462888d63005232004&q=${place}&aqi=no&days=4`).then(
