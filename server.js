@@ -28,7 +28,7 @@ app.post('/temp' ,async function(req,res){
   return ;
  }
  app.get('/',(res,req)=>{
-  res.send("HEllo") ;
+  return res.send("HEllo") ;
  })
 
 
